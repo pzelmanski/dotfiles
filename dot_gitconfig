@@ -1,0 +1,9 @@
+[alias]
+	s = status
+[user]
+	name = pzelmanski
+	email = pzelmanski1@gmail.com
+[core]
+	editor = nvim
+[push]
+	autoSetupRemote = true
