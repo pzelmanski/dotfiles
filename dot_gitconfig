@@ -1,5 +1,6 @@
 [alias]
 	s = status
+	co = checkout
 [user]
 	name = pzelmanski
 	email = pzelmanski1@gmail.com
