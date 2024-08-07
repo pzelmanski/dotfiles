@@ -1,6 +1,7 @@
 [alias]
 	s = status
 	co = checkout
+	ds = diff --staged
 [user]
 	name = pzelmanski
 	email = pzelmanski1@gmail.com
