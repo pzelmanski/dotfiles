@@ -84,6 +84,8 @@ VI_MODE_SET_CURSOR=true
 
 source $ZSH/oh-my-zsh.sh
 
+# this line makes partial completion on middle of the words
+zstyle ':completion:*' matcher-list 'r:|=*' 'l:|=* r:|=*'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
