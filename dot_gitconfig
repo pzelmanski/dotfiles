@@ -2,7 +2,6 @@
 	s = status
 	co = checkout
 	ds = diff --staged
-	rh = reset --hard
 [user]
 	name = pzelmanski
 	email = pzelmanski1@gmail.com
