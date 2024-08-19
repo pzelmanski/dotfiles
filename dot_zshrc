@@ -142,3 +142,4 @@ if [ -f '/Users/paze/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/paze
 # Path directory for custom scripts
 if [ -d '/Users/paze/repo/scripts/' ]; then export PATH=/Users/paze/repo/scripts:$PATH; fi
 
+eval "$(zoxide init zsh)"
