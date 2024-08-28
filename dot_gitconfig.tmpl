@@ -3,8 +3,8 @@
 	co = checkout
 	ds = diff --staged
 [user]
-	name = pzelmanski
-	email = {{ .email | quote }}
+    name = "{{ .git_name }}"
+	email = "{{ .git_email }}"
 [core]
 	editor = nvim
 [push]
