@@ -131,6 +131,7 @@ export NVM_DIR="$HOME/.nvm"
 export EDITOR="nvim"
 
 # haskell ghcup
+[ -f "/Users/pawelzelmanski/.ghcup/env" ] && . "/Users/pawelzelmanski/.ghcup/env" # ghcup-env
 [ -f "/Users/paze/.ghcup/env" ] && . "/Users/paze/.ghcup/env" # ghcup-env
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -143,3 +144,4 @@ if [ -f '/Users/paze/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/paze
 if [ -d '/Users/paze/repo/scripts/' ]; then export PATH=/Users/paze/repo/scripts:$PATH; fi
 
 eval "$(zoxide init zsh)"
+
